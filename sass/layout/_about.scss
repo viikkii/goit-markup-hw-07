@@ -1,0 +1,31 @@
+.headline-flex {
+  display: flex;
+}
+
+.section-li {
+  margin-top: 30px;
+  margin-left: 30px;
+  display: block;
+  justify-content: space-between;
+}
+
+.section-li {
+  width: 270px;
+  box-sizing: border-box;
+}
+
+.section-ul-headline {
+  margin-top: -30px;
+  margin-left: -30px;
+}
+
+.headline-div {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--button-galery-box);
+  border: 1px solid var(--button-galery-box);
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
