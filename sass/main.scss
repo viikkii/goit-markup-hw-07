@@ -7,9 +7,11 @@
 @import './base/container';
 
 // COMPONENTS
-@import './components/modal-btn';
-@import './components/description';
+@import './components/logo';
 @import './components/title';
+@import './components/modal-button';
+@import './components/backdrop';
+@import './components/modal-window';
 @import './components/social-list-links';
 
 // LAYOUT
@@ -19,3 +21,6 @@
 @import './layout/services';
 @import './layout/team';
 @import './layout/partners';
+@import './layout/footer';
+@import './layout/gallery';
+@import './layout/gallerry-btn';

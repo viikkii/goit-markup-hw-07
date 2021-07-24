@@ -1,3 +1,15 @@
+.modal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 528px;
+  height: 581px;
+  background: var(--primary-white-color);
+  transform: translate(-50%, -50%);
+  animation-name: changeModalBtn;
+  animation-duration: 250ms;
+}
+
 .close-btn {
   position: absolute;
   top: 8px;
