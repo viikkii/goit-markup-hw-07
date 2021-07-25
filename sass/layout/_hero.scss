@@ -13,11 +13,9 @@
   max-width: 1600px;
 }
 
-.hero-title {
+.hero__title {
+  @include font(44px, 900, 1.36);
   color: var(--primary-white-color);
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
   text-transform: uppercase;
   letter-spacing: 0.06em;
   width: 696px;
@@ -27,12 +25,10 @@
 }
 
 .button {
+  @include font(16px, 700, 1.9);
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.9;
   letter-spacing: 0.06em;
   text-decoration: none;
   cursor: pointer;

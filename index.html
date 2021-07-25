@@ -21,43 +21,46 @@
     <header class="header">
       <div class="container header-container">
         <nav class="navigation">
-          <a class="logo" href="./index.html">
-            <span class="logo-style">Web</span>Studio</a
+          <a class="logo logo-header" href="./index.html">
+            <span class="logo__icon">Web</span>Studio</a
           >
-          <ul class="site-nav link-ul section-item">
-            <li class="section-nav">
+          <ul class="menu link-ul section-item">
+            <li class="menu__item">
               <a
-                class="site-nav current link-a-href section-after"
+                class="menu__link link-a-href current section-after"
                 href="./index.html"
                 >Студия</a
               >
             </li>
-            <li class="section-nav">
+            <li class="menu__item">
               <a
-                class="site-nav link-a-href section-after"
+                class="menu__link link-a-href section-after"
                 href="./portfolio.html"
                 >Портфолио</a
               >
             </li>
-            <li class="section-nav">
-              <a class="site-nav link-a-href section-after" href="#"
+            <li class="menu__item">
+              <a class="menu__link link-a-href section-after" href="#"
                 >Контакты</a
               >
             </li>
           </ul>
         </nav>
         <ul class="contact link-ul section-item section-list">
-          <li class="contact-link contact-item">
-            <a href="mailto:info@devstudio.com" class="mail-active link-a-href">
-              <svg class="contacts-icon mail" width="16" height="12">
+          <li class="contact__item">
+            <a
+              href="mailto:info@devstudio.com"
+              class="contact__mail-link link-a-href"
+            >
+              <svg class="contact__icon" width="16" height="12">
                 <use href="./images/sprite/symbol-defs.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="contact-phone contact-item">
-            <a href="tel:+380991111111" class="phone-active link-a-href">
-              <svg class="contacts-icon phone" width="10" height="16">
+          <li class="contact-item">
+            <a href="tel:+380991111111" class="contact__phone-link link-a-href">
+              <svg class="contact__icon" width="10" height="16">
                 <use
                   href="./images/sprite/symbol-defs.svg#icon-smartphone"
                 ></use>
@@ -74,7 +77,7 @@
       <!--Герой-->
       <section class="hero">
         <div class="container">
-          <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+          <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
           <button type="button" data-modal-open class="button">
             Заказать услугу
           </button>
@@ -85,57 +88,57 @@
       <section class="section">
         <div class="container">
           <h2 class="visually-hidden">Преимущества команды WebStudio</h2>
-          <ul class="link-ul section-item section-ul-headline">
-            <li class="section-li">
+          <ul class="about link-ul section-item">
+            <li class="about__item">
               <div class="headline-div">
-                <svg class="headline-icon" width="70" height="70">
+                <svg class="about__icon" width="70" height="70">
                   <use
                     href="./images/sprite/symbol-defs.svg#icon-antenna"
                   ></use>
                 </svg>
               </div>
-              <h3 class="section-headline">Внимание к деталям</h3>
-              <p class="section-text">
+              <h3 class="about__text">Внимание к деталям</h3>
+              <p class="about__info">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li class="section-li">
+            <li class="about__item">
               <div class="headline-div">
-                <svg class="headline-icon" width="70" height="70">
+                <svg class="about__icon" width="70" height="70">
                   <use href="./images/sprite/symbol-defs.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3 class="section-headline">Пунктуальность</h3>
-              <p class="section-text">
+              <h3 class="about__text">Пунктуальность</h3>
+              <p class="about__info">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li class="section-li">
+            <li class="about__item">
               <div class="headline-div">
-                <svg class="headline-icon" width="70" height="70">
+                <svg class="about__icon" width="70" height="70">
                   <use
                     href="./images/sprite/symbol-defs.svg#icon-diagram"
                   ></use>
                 </svg>
               </div>
-              <h3 class="section-headline">Планирование</h3>
-              <p class="section-text">
+              <h3 class="about__text">Планирование</h3>
+              <p class="about__info">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li class="section-li">
+            <li class="about__item">
               <div class="headline-div">
-                <svg class="headline-icon" width="70" height="70">
+                <svg class="about__icon" width="70" height="70">
                   <use
                     href="./images/sprite/symbol-defs.svg#icon-astronaut"
                   ></use>
                 </svg>
               </div>
-              <h3 class="section-headline">Современные технологии</h3>
-              <p class="section-text">
+              <h3 class="about__text">Современные технологии</h3>
+              <p class="about__info">
                 Значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
               </p>
@@ -148,31 +151,31 @@
       <section class="section section-padding">
         <div class="container">
           <h2 class="section-title wort-item">Чем мы занимаемся</h2>
-          <ul class="link-ul section-item section-ul-photo">
-            <li class="section-photo">
-              <div class="photo-position">
+          <ul class="work-space link-ul section-item">
+            <li class="work-space__item">
+              <div class="container__work-space">
                 <img
                   src="./images/gallery/img1.jpg"
                   alt="Клавиатура"
                   width="370"
                   height="294"
                 />
-                <p class="overlay-photo">Десктопные Приложения</p>
+                <p class="work-space__overlay">Десктопные Приложения</p>
               </div>
             </li>
-            <li class="section-photo">
-              <div class="photo-position">
+            <li class="work-space__item">
+              <div class="container__work-space">
                 <img
                   src="./images/gallery/img2.jpg"
                   alt="Смартфон"
                   width="370"
                   height="294"
                 />
-                <p class="overlay-photo">Мобильные приложения</p>
+                <p class="work-space__overlay">Мобильные приложения</p>
               </div>
             </li>
-            <li class="section-photo">
-              <div class="photo-position">
+            <li class="work-space__item">
+              <div class="container__work-space">
                 <img
                   src="./images/gallery/img3.jpg"
                   alt="Тачпад"
@@ -535,8 +538,8 @@
     <footer class="footer">
       <div class="container box">
         <div class="box-one">
-          <a class="logo-footer" href="./index.html">
-            <span class="logo-style">Web</span>Studio</a
+          <a class="logo logo-footer" href="./index.html">
+            <span class="logo__icon">Web</span>Studio</a
           >
           <address>
             <ul class="link-ul section-item-footer">
@@ -630,7 +633,7 @@
     <!-- модальное окно -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button type="button" data-modal-close class="close-btn">
+        <button type="button" data-modal-close class="modal-btn">
           <svg class="join-icon" width="18" height="18">
             <use
               href="./images/sprite/symbol-defs.svg#icon-close-black-18dp-2-1"

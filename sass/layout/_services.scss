@@ -5,20 +5,22 @@
   padding-bottom: 94px;
 }
 
-.section-ul-photo {
+.work-space {
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.section-photo {
-  position: relative;
-
+.work-space__item {
   & + & {
     margin-left: 30px;
   }
 }
 
-.overlay-photo {
+.container__work-space {
+  position: relative;
+}
+
+.work-space__overlay {
   font-weight: 700;
   text-transform: uppercase;
   color: var(--primary-white-color);

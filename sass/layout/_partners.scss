@@ -4,10 +4,8 @@
 }
 
 .title-partner {
+  @include font(36px, 700, 1.17);
   color: var(--section-text-color);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
   text-align: center;
   margin-bottom: 50px;
 }

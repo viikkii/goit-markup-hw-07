@@ -29,9 +29,7 @@
 }
 
 .modal-text {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.15;
+  @include font(20px, 700, 1.15);
   text-align: center;
   color: var(--section-text-color);
   margin-bottom: 10px;
@@ -66,8 +64,7 @@
 }
 
 .form-label {
-  font-size: 12px;
-  line-height: 1.17;
+  @include font(12px, 400, 1.17);
   letter-spacing: 0.03em;
   margin-bottom: 10px;
 
@@ -139,10 +136,8 @@
 }
 
 .btn-send {
+  @include font(16px, 700, 1.88);
   font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
   letter-spacing: 0.06em;
   background-color: var(--accent-color);
   color: var(--primary-white-color);

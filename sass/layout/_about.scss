@@ -1,21 +1,17 @@
-.section-li {
+.about {
+  margin-top: -30px;
+  margin-left: -30px;
+}
+
+.section-item {
+  display: flex;
+  align-items: center;
+}
+
+.about__item {
   margin-top: 30px;
   margin-left: 30px;
   width: 270px;
-}
-
-.section-headline {
-  color: var(--section-text-color);
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.71;
-  margin-bottom: 10px;
-}
-
-.section-ul-headline {
-  margin-top: -30px;
-  margin-left: -30px;
 }
 
 .headline-div {
@@ -27,4 +23,16 @@
   border: 1px solid var(--button-galery-box);
   border-radius: 4px;
   margin-bottom: 30px;
+}
+
+.about__text {
+  @include font(14px, 700, 1.71);
+  color: var(--section-text-color);
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.about__info {
+  @include font(14px, 400, 1.71);
+  letter-spacing: 0.03em;
 }

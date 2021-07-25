@@ -1,33 +1,27 @@
 .logo {
-  color: var(--primary-black-color);
+  @include font(26px, 700, 1.19);
   font-family: var(--secondary-font);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
   text-decoration: none;
   margin-right: 93px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.logo-header {
+  color: var(--primary-black-color);
+  margin-right: 93px;
 }
 
 .logo-footer {
   color: var(--primary-white-color);
-  font-family: var(--secondary-font);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  text-decoration: none;
   display: block;
   margin-bottom: 20px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.logo-style {
-  color: var(--accent-color);
-}
-
-.logo:hover,
-.logo:focus,
-.logo-footer:hover,
-.logo-footer:focus {
+.logo__icon {
   color: var(--accent-color);
 }
