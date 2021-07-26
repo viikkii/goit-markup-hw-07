@@ -1,4 +1,4 @@
-.contacts-link {
+.team__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -16,7 +16,7 @@
   }
 }
 
-.contact-icon {
+.team__icon {
   color: var(--border-second-color);
 
   &:hover,
@@ -57,8 +57,8 @@
   height: 44px;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
-  
+
   &:not(:last-child) {
-  margin-right: 10px;
-}
+    margin-right: 10px;
+  }
 }

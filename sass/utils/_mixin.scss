@@ -3,3 +3,9 @@
   font-weight: $fw;
   line-height: $lh;
 }
+
+%list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

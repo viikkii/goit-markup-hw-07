@@ -3,24 +3,24 @@
   padding-bottom: 94px;
 }
 
-.title-partner {
+.partner__title {
   @include font(36px, 700, 1.17);
   color: var(--section-text-color);
   text-align: center;
   margin-bottom: 50px;
 }
 
-.item-partner {
+.partner {
   display: flex;
   justify-content: space-between;
   margin-left: -30px;
 }
 
-.section-partner {
+.partner__item {
   margin-left: 30px;
 }
 
-.partnet-link {
+.partner__link {
   fill: var(--border-second-color);
   border: 1px solid var(--border-second-color);
   border-radius: 4px;
@@ -41,6 +41,6 @@
   }
 }
 
-.link-icon {
+.partner__icon {
   color: var(--border-second-color);
 }
