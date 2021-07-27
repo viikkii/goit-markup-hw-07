@@ -1,6 +1,9 @@
 .partner {
   margin-bottom: 0;
   padding-bottom: 94px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: -30px;
 }
 
 .partner__title {
@@ -8,12 +11,6 @@
   color: var(--section-text-color);
   text-align: center;
   margin-bottom: 50px;
-}
-
-.partner {
-  display: flex;
-  justify-content: space-between;
-  margin-left: -30px;
 }
 
 .partner__item {
@@ -36,7 +33,7 @@
   &:hover,
   &:focus {
     border-color: var(--accent-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: var(--third-shadow);
     fill: var(--accent-color);
   }
 }
